@@ -1,0 +1,38 @@
+.ProductList {
+  margin: 1rem;
+  position: relative;
+}
+
+.ProductList a {
+  text-decoration: none !important;
+}
+
+.card {
+  height: 19rem;
+  width: 15.13rem;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.productImage {
+  width: 10.5rem;
+}
+
+.productTile {
+  font-size: 1rem;
+}
+
+.productPrice {
+  color: orange;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  position: relative;
+  top: 1rem;
+}

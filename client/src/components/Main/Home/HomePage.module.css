@@ -1,0 +1,82 @@
+.imageList {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 400px 400px 400px;
+  grid-gap: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s;
+  border: 2px solid rgb(214, 211, 211);
+}
+
+.imageContent {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 2s;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.description p {
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+
+.imageContent:hover .overlay {
+  opacity: 1;
+}
+
+.imageContent:hover .image {
+  opacity: 0.4;
+}
+
+.youtube {
+  position: relative;
+  width: 99%;
+  height: 31.25rem;
+  background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/octane/2T7JZSQ5XIROWCWVZDDZAYFFDQ.jpg");
+  margin-left: 0.5%;
+  margin-top: 0.7rem;
+  margin-bottom: 5rem;
+  background-color: red;
+  background-blend-mode: multiply;
+}
+
+.youtube_button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.info span {
+  font-size: 17px;
+  font-weight: 700;
+}

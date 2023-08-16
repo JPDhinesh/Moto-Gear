@@ -1,0 +1,23 @@
+.header {
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.header a {
+  color: black;
+  font-size: 1.05rem;
+  text-decoration: none;
+  margin: 0 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.header a:hover,
+.header a.active {
+  color: #fcb66b;
+}
